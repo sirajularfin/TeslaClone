@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import CarItem from './src/components/CarItem';
+import CarsList from './src/components/CarsList';
 
 const App = () => {
 	return (
 		<View style={styles.container}>
-			<CarItem />
+			<CarsList />
 		</View>
 	);
 };
